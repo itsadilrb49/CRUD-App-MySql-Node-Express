@@ -6,7 +6,7 @@ const dbConn = mysql.createConnection({
   port :'3306',
   user     : 'root',
   password : 'niitpatna',
-  database : 'node_mysql_crud_db'
+  database : 'node_mysql'
 });
 dbConn.connect(function(err) {
   if (err) throw err;
